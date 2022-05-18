@@ -15,62 +15,61 @@
   <body>
     <div class="container">
        <form class="mt-3 mb-3" action="#"> 
-      <h2 class=" mt-4 mb-4 text-center">   info</h2><div class="mb-4">
+      <h2 class=" mt-4 mb-4 text-center"> نموذج تواصل </h2><div class="mb-4">
 <label class="form-label" for="InputName"> اسم المنشأة</label>
 <input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<div class="form-text invisible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName"> اسم المالك</label>
 <input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName">  رقم الهوية الوطنية </label>
 <input class="form-control" type="number" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<div class="form-text visible">يجب ان يكون من 10 ارقام</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName"> تاريخ الميلاد</label>
 <input class="form-control" type="date" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName"> رقم الجوال في ابشر </label>
-<input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<input class="form-control" type="number" id="InputName" aria-describedby="emailHelp">
+<div class="form-text visible">يجب ان يكون من 10 ارقام</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="emailUser"> الايميل الالكتروني </label>
 <input class="form-control" type="email" id="emailUser" aria-describedby="emailHelp">
-<div class="form-text visible">you must Enter correct email</div>
+<div class="form-text invisible">you must Enter correct email</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName">  المدينة </label>
 <input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<div class="form-text invisible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName">  عدد الموظفين في المنشأة</label>
-<input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<input class="form-control" type="number" id="InputName" aria-describedby="emailHelp">
+<div class="form-text invisible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="InputName"> البنك الخاص بالمنشأة</label>
-<input class="form-control" type="number" id="InputName" aria-describedby="emailHelp">
-<div class="form-text visible">you must be Enter your name</div>
+<input class="form-control" type="text" id="InputName" aria-describedby="emailHelp">
+<div class="form-text invisible">you must be Enter your name</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="exampleInputPassword1">اسم المسؤول في المنشأة</label>
 <input class="form-control" type="text" id="exampleInputPassword1">
-<div class="form-text visible">Enter you subject</div>
+<div class="form-text invisible">Enter you subject</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="exampleInputPassword1">رقم جوال المسؤول</label>
 <input class="form-control" type="number" id="exampleInputPassword1">
-<div class="form-text visible">Enter you subject</div>
+<div class="form-text visible">يجب ان يكون من 10 ارقام</div>
 </div>
-      <h2 class=" mt-4 mb-4 text-center">   info</h2><select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+<div class="mb-4">
+<select class="form-select form-select-lg" aria-label=".form-select-lg example">
 <option selected class="bg-light">المنصة </option>
 <option value="1">وزارة التجارة</option>
 <option value="2">مكتب العمل</option>
@@ -82,22 +81,30 @@
 <option value="3">أبشر أعمال</option>
 <option value="3">هيئة الزكاة و الضريبة </option>
 </select>
+</div>
 <div class="mb-4">
 <label class="form-label" for="exampleInputPassword1">اسم المستخدم </label>
 <input class="form-control" type="text" id="exampleInputPassword1">
-<div class="form-text visible">Enter you subject</div>
+<div class="form-text invisible">Enter you subject</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="exampleInputPassword1"> كلمة السر </label>
 <input class="form-control" type="password" id="exampleInputPassword1">
-<div class="form-text visible">Enter you subject</div>
+<div class="form-text invisible">Enter you subject</div>
 </div>
 <div class="mb-4">
 <label class="form-label" for="">ملاحظات</label>
 <textarea class="form-control" name="message" cols="10" rows="5"></textarea>
-<div class="form-text visible">you must not empty</div>
+<div class="form-text invisible">you must not empty</div>
 </div>
-<button class="btn btn-primary m-auto d-block w-50" type="submit">ارسال</button>
+<div class="mb-4">
+<input class="form-control mb-1" type="file" id="formFile" multiple>
+<label for="formFile" class="form-label">
+      <p>ارفاق نسخة من السجل التجاري</p>
+      <p>ارفاق نسخة من العنوان الوطني</p></label>
+<a class="btn bg-info text-light d-block mb-2 link-whatsapp" href="#" role="button"><img src="img/whatsapp-brands.svg" class="whatsapp">  للتواصل واتس اب </a>
+</div>
+<button class="btn btn-primary m-auto d-block w-50" type="submit">  ارسال البيانات</button>
 </form>
     </div>
   </body>
