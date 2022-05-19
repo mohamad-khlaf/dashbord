@@ -1,0 +1,163 @@
+<!-- <?php 
+  session_start();
+  if ($_SESSION["user"]) {
+    echo "<h2 > مرحبا" . $_SESSION["user"] . "انت الادمن</h2>";
+    // echo "<pre>";
+    // print_r($_SESSION);
+    // echo "</pre>";
+  } else {
+    echo "you are not permitted to see this page";
+  } -->
+<!-- ?> -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/dash.css" />
+    <title>dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>لوحة التحكم</h1>
+      <div class="siting">
+        <button>تنزيل كامل البيانات ملف اكسل</button>
+        <button>تنزيل البيانات المحددة اكسل</button>
+        <button>تغيير كملة السر</button>
+        <button>حذف كامل البيانات</button>
+        <button>حذف البيانات المحددة فقط</button>
+        <button>اااااااا</button>
+      </div>
+
+      <div class="table-responsive-md">
+        <table class="table m-auto">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">اسم المنشأة</th>
+              <th scope="col">اسم المالك</th>
+              <th scope="col">رقم الهوية الوطنية</th>
+              <th scope="col">تاريخ الميلاد</th>
+              <th scope="col">رقم الجوال في ابشر</th>
+              <th scope="col">البريد الالكتروني</th>
+              <th scope="col">المدينة</th>
+              <th scope="col">عدد الموظفين في النشأة</th>
+              <th scope="col">اسم المسؤول في المنشأة</th>
+              <th scope="col">كلمة السر</th>
+              <th scope="col">ملاحطات</th>
+              <th scope="col">الملفات</th>
+              <th scope="col">الحذف</th>
+              <th scope="col">تحديد</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+            <tr>
+              <td scope="row">1</td>
+              <td>محمد خلف</td>
+              <td>محمد خلف</td>
+              <td>1234567890</td>
+              <td>1333/02/02</td>
+              <td>0987654321</td>
+              <td>mohamad@gmail.com</td>
+              <td>mars</td>
+              <td>150</td>
+              <td>كل راعي مسؤول عن رعيته</td>
+              <td>admin123123</td>
+              <td>لا يوجد ملاحظات</td>
+              <td>لا يوجد ملفات</td>
+              <td>delete</td>
+              <td><input dir="ltr" type="checkbox" name="" id="" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
